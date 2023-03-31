@@ -79,7 +79,7 @@ return(
              fotos y otros archivos se transfieran correctamente a los navegadores de los visitantes.
               </Card.Text>
             </Card.Body><Card.Footer>
-            <Button class="btn btn-info">¡Vamos!</Button>
+            <Button class="btn btn-info" href="https://rockcontent.com/es/blog/que-es-un-host/">¡Vamos!</Button>
         </Card.Footer>
           </Card>
         </Col>

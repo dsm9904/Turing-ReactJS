@@ -32,7 +32,6 @@ let Cards=()=> {
     <div className='margins'>
     <div class="row row-cols-1 row-cols-md-3 g-4">
 {
-  
   !datos ? 'mostrar datos' :
   datos.map((datos,index)=>{
  return<div class="col">
@@ -53,7 +52,6 @@ let Cards=()=> {
 </div>
 </div>
 <br></br>    <br></br>
-
 <Carrusel/>
 </div>
   );

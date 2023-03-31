@@ -3,7 +3,6 @@ import './App.css';
 import stack from './stack.png'
 import sitepoint from './sitepoint.png'
 import CodeProject from './CodeProject.jpeg'
-
 let Carrusel=()=> {
   return (
     <div><h1 align="center">Algunos Foros para Programadores</h1>

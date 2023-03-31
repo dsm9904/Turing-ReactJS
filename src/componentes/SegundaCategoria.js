@@ -3,8 +3,6 @@ import './App.css';
 import Table from 'react-bootstrap/Table';
 import {Col, Card, Row, Button, Container, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
-
-
 let PrimerCategoria=()=> {
 return(
     <div>

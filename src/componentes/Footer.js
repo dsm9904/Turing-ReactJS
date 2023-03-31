@@ -4,7 +4,6 @@ const Footer=()=>{
     return(
 <div><MDBFooter bgColor='dark' color='white' className='text-center text-lg-start text-muted'>
       <br></br>
-
       <section className=''>
         <MDBContainer className='text-center text-md-start mt-5'>
           <MDBRow className='mt-3'>
@@ -17,7 +16,6 @@ const Footer=()=>{
                 Prueba Tecnica Turing IA
               </p>
             </MDBCol>
-
             <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>¿Quieres Instalar algun Framework?</h6>
               <p>
@@ -41,7 +39,6 @@ const Footer=()=>{
                 </a>
               </p>
             </MDBCol>
-
             <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Indice</h6>
               <p>
@@ -54,9 +51,7 @@ const Footer=()=>{
                   Aprendizaje
                 </a>
               </p>
-              
             </MDBCol>
-
             <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Contacto</h6>
               <p>
