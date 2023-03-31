@@ -7,6 +7,8 @@ import Row from 'react-bootstrap/Row';
 import './App.css';
 import axios from 'axios';
 import placeholder from './pla.jpg'
+import Entrada from './primerentrada';
+import Carrusel from './carousel';
 
 let Cards=()=> {
   const [datos, setDatos]=useState() 
@@ -21,6 +23,12 @@ let Cards=()=> {
     fetchApi();
   },[])
   return (
+    <div>
+    <Entrada/>
+    <br></br>
+    <br></br>
+    <h1 align="center">Lenguajes de Programacion mas famosos</h1>
+    <br></br>
     <div className='margins'>
     <div class="row row-cols-1 row-cols-md-3 g-4">
 {
@@ -43,6 +51,10 @@ let Cards=()=> {
   })
 }
 </div>
+</div>
+<br></br>    <br></br>
+
+<Carrusel/>
 </div>
   );
   }

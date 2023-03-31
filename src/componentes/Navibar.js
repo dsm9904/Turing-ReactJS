@@ -11,12 +11,12 @@ let Navibar=()=> {
     <Navbar.Toggle aria-controls="navbarScroll" data-bs-toggle="collapse" data-bs-target="#navbarScroll" />
     <Navbar.Collapse id="navbarScroll">
         <Nav>
-            <NavLink eventKey="1" as={Link} to="/" width="120" height="50" className="letrasBarra">Lenguajes de Programacion</NavLink>
-            <NavLink eventKey="2" as={Link} to="/segundacategoria" width="120" height="50" className="letrasBarra">Curiosidades</NavLink>
+            <NavLink eventKey="1" as={Link} to="/" width="120" height="50" className="letrasBarra">Home</NavLink>
+            <NavLink eventKey="2" as={Link} to="/segundacategoria" width="120" height="50" className="letrasBarra">¡Quiero Aprender!</NavLink>
      </Nav>
     </Navbar.Collapse>  
     <Nav className="Letrasbarra">
-    <Nav.Link ><Button>Iniciar Sesion</Button></Nav.Link>
+    <Nav.Link ><Button class="btn btn-info">Iniciar Sesion</Button></Nav.Link>
     </Nav>
     </Container> 
 </Navbar>

@@ -13,6 +13,24 @@
   }
 }
 
+.Carrusel{
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  }
+  .imgRedonda {
+    width:300px;
+    height:300px;
+    border-radius:160px;
+    border:10px solid #666;
+}
+.letras{
+  font-size: 20px;
+  color: aquamarine;
+  font-weight: bold;
+
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
